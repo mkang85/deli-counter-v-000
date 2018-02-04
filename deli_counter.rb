@@ -7,6 +7,7 @@ def line(arr)
       "The line is currently: #{index + 1}. #{name}"
   end
 end
+end
 
 
 def take_a_number(arr, string)
