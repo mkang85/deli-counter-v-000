@@ -4,9 +4,8 @@ def line(arr)
     "The line is currently empty."
   else
     arr.each_with_index do|name, index|
-      "The line is currently: #{index + 1}. #{{name}}"
+      "The line is currently: #{index + 1}. #{name}"
   end
-end
 end
 
 
