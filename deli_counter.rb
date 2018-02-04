@@ -13,6 +13,7 @@ end
 def take_a_number(arr, string)
   newArr = line(arr)
   newArr << string
+  return newArr
 end
 
 def deli_counter(arr)
