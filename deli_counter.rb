@@ -15,10 +15,12 @@ end
 
 
 def take_a_number(arr, string)
-  newArr = line(arr)
-  newArr << string
-  return line(newArr)
+  newArr = arr << string
+  puts "Welcome, #{string}. You are number #{(newArr.length-1) + 1} in line"
 end
+
+
+  take_a_number(katz_deli, "Ada") #=> Welcome, Ada. You are number 1 in line.
 
 def deli_counter(arr)
    line(arr)
