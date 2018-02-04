@@ -20,8 +20,6 @@ def take_a_number(arr, string)
 end
 
 
-  take_a_number(katz_deli, "Ada") #=> Welcome, Ada. You are number 1 in line.
-
 def deli_counter(arr)
    line(arr)
 end
