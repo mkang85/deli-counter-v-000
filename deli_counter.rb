@@ -9,7 +9,7 @@ def line(arr)
       string << "#{x + 1}. #{arr[x]}"
       x += 1
   end
-  string
+  puts string
 end
 end
 
