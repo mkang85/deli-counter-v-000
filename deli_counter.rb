@@ -16,7 +16,7 @@ end
 
 def take_a_number(arr, string)
   newArr = arr << string
-  puts "Welcome, #{string}. You are number #{(newArr.length-1) + 1} in line"
+  puts "Welcome, #{string}. You are number #{(newArr.length-1) + 1} in line."
 end
 
 
