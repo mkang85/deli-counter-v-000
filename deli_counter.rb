@@ -30,4 +30,5 @@ end
 def deli_counter(arr)
    line(arr)
    take_a_number(arr, string)
+   now_serving(arr)
 end
