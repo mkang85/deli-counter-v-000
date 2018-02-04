@@ -21,5 +21,5 @@ def take_a_number(arr, string)
 end
 
 def deli_counter(arr)
-  return line(arr)
+   line(arr)
 end
