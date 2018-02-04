@@ -1,7 +1,7 @@
 # Write your code here.
 def line(arr)
   if arr.length == 0
-    "The line is currently empty."
+    puts "The line is currently empty."
   else
     # arr.each_with_index do|name, index|
     #   "The line is currently: #{index + 1}. #{name}"
