@@ -4,9 +4,11 @@ def line(arr)
     puts "The line is currently empty."
   else
     string = "The line is currently: "
-    arr.each_with_index do|name, index|
-      string << "#{index + 1}. #{name}"
+    x = 0
+    while x < arr.length
+      string << "#{x + 1}. #{arr[x]}"
   end
+  string
 end
 end
 
