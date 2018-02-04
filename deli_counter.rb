@@ -3,10 +3,10 @@ def line(arr)
   if arr.length == 0
     puts "The line is currently empty."
   else
-    string = "The line is currently: "
+    string = "The line is currently:"
     x = 0
     while x < arr.length
-      string << "#{x + 1}. #{arr[x]}"
+      string << " #{x + 1}. #{arr[x]}"
       x += 1
   end
   puts string
